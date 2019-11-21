@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import XDate from 'xdate';
 
 import dateutils from '../dateutils';
-import {xdateToData} from '../interface';
+import {xdateToData, parseDate} from '../interface';
 import styleConstructor from './style';
 import CalendarContext from './calendarContext';
 
